@@ -1,0 +1,21 @@
+ROCK MY CLOSET — VERSION 1 (iPhone)
+
+APPLICATION 100 % LOCALE — GRATUITE
+
+1. Décompresser l’archive sur un ordinateur, ou utiliser l’interface GitHub depuis Safari.
+2. Créer un dépôt GitHub PUBLIC intitulé rock-my-closet.
+3. Ajouter à la RACINE du dépôt index.html, style.css, app.js, sw.js, manifest.webmanifest et le dossier icons avec les deux fichiers PNG.
+4. GitHub > Settings > Pages > Deploy from a branch > main > /root > Save.
+5. Ouvrir https://VOTRE-NOM.github.io/rock-my-closet/ avec Safari sur votre iPhone.
+6. Dans Safari : Partager > Sur l’écran d’accueil > Ajouter.
+7. Ajouter quelques photos de vêtements, puis ouvrir l’onglet Looks.
+8. Dans Profil, sauvegarder régulièrement votre dressing (fichier JSON) et conserver ce fichier dans l’application Fichiers.
+
+IMPORTANT
+- Le dépôt GitHub est public : ne jamais y mettre de photos personnelles. Seul le CODE va sur GitHub. Les photos importées dans l’application sont conservées sur l’iPhone via IndexedDB.
+- La v1 suggère automatiquement une COULEUR à partir de la photo, avec une précision limitée par le fond, l’éclairage et le cadrage. La catégorie peut être suggérée depuis le nom de fichier ; elle n’est pas reconnue visuellement.
+- Les catégories et coupes doivent être confirmées manuellement. La reconnaissance avancée par modèle de vision n’est PAS incluse dans cette version.
+- Les looks et les achats manquants viennent d’un moteur de règles simples ; ce ne sont pas des conseils certifiés d’un styliste professionnel.
+- Les données ne se synchronisent pas entre appareils. Supprimer les données de Safari ou l’application peut les effacer.
+- Le site fonctionne hors ligne après un premier chargement réussi et mise en cache.
+- Pour un usage personnel, GitHub Pages gratuit est adapté sous réserve des conditions GitHub en vigueur.
